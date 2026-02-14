@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 346 367" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Park Terrace Gardens Inc. Logo</title>
+  <desc id="logoDesc">A stylized tree above the words Park Terrace Gardens Inc.</desc>
+  <g fill="none" stroke="#1f3854" stroke-linecap="round">
+    <path d="M173 180 C172 164 172 150 173 136" stroke-width="6"/>
+    <path d="M171 177 C165 192 162 210 164 229 C165 242 170 251 173 251 C176 251 181 242 182 229 C184 209 181 192 175 177 Z" fill="#1f3854" stroke-width="0"/>
+
+    <path d="M173 141 L147 124" stroke-width="5"/>
+    <path d="M173 142 L199 124" stroke-width="5"/>
+    <path d="M172 136 L136 111" stroke-width="4"/>
+    <path d="M174 136 L210 111" stroke-width="4"/>
+
+    <path d="M159 131 L141 101" stroke-width="3"/>
+    <path d="M187 131 L205 101" stroke-width="3"/>
+    <path d="M149 125 L126 98" stroke-width="3"/>
+    <path d="M197 125 L220 98" stroke-width="3"/>
+
+    <path d="M174 125 L174 91" stroke-width="4"/>
+    <path d="M174 112 L162 82" stroke-width="3"/>
+    <path d="M174 112 L186 82" stroke-width="3"/>
+
+    <path d="M136 112 L114 89" stroke-width="3"/>
+    <path d="M212 112 L234 89" stroke-width="3"/>
+    <path d="M128 102 L102 88" stroke-width="2.6"/>
+    <path d="M220 102 L246 88" stroke-width="2.6"/>
+
+    <path d="M123 100 L98 71" stroke-width="2.4"/>
+    <path d="M225 100 L250 71" stroke-width="2.4"/>
+    <path d="M106 86 L84 73" stroke-width="2.1"/>
+    <path d="M242 86 L264 73" stroke-width="2.1"/>
+    <path d="M92 76 L75 60" stroke-width="1.8"/>
+    <path d="M256 76 L273 60" stroke-width="1.8"/>
+
+    <path d="M173 156 L129 149" stroke-width="4"/>
+    <path d="M173 156 L217 149" stroke-width="4"/>
+    <path d="M138 151 L104 144" stroke-width="3"/>
+    <path d="M208 151 L242 144" stroke-width="3"/>
+    <path d="M106 145 L79 140" stroke-width="2.2"/>
+    <path d="M240 145 L267 140" stroke-width="2.2"/>
+
+    <path d="M173 166 L141 170" stroke-width="3.2"/>
+    <path d="M173 166 L205 170" stroke-width="3.2"/>
+    <path d="M145 171 L115 179" stroke-width="2.4"/>
+    <path d="M201 171 L231 179" stroke-width="2.4"/>
+    <path d="M117 179 L90 191" stroke-width="1.9"/>
+    <path d="M229 179 L256 191" stroke-width="1.9"/>
+  </g>
+
+  <ellipse cx="173" cy="251" rx="32" ry="3" fill="#1f3854" opacity="0.95"/>
+
+  <g fill="#1f3854" font-family="Inter, Avenir Next, Helvetica Neue, Arial, sans-serif" text-anchor="middle">
+    <text x="173" y="304" font-size="54" letter-spacing="4" font-weight="600">PARK TERRACE</text>
+    <text x="173" y="345" font-size="46" letter-spacing="6" font-weight="500">GARDENS INC.</text>
+  </g>
+  <line x1="58" y1="357" x2="288" y2="357" stroke="#1f3854" stroke-width="3"/>
+</svg>

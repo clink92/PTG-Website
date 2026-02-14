@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="markTitle">
+  <title id="markTitle">Park Terrace tree mark</title>
+  <g fill="none" stroke="#1f3854" stroke-linecap="round">
+    <path d="M110 130 C109 114 109 102 110 88" stroke-width="6"/>
+    <path d="M108 127 C102 142 99 160 101 179 C102 192 107 201 110 201 C113 201 118 192 119 179 C121 159 118 142 112 127 Z" fill="#1f3854" stroke-width="0"/>
+
+    <path d="M110 93 L88 77" stroke-width="5"/>
+    <path d="M110 94 L132 77" stroke-width="5"/>
+    <path d="M109 89 L78 66" stroke-width="4"/>
+    <path d="M111 89 L142 66" stroke-width="4"/>
+
+    <path d="M97 84 L81 57" stroke-width="3"/>
+    <path d="M123 84 L139 57" stroke-width="3"/>
+    <path d="M88 78 L67 54" stroke-width="3"/>
+    <path d="M132 78 L153 54" stroke-width="3"/>
+
+    <path d="M111 78 L111 48" stroke-width="4"/>
+    <path d="M111 66 L100 40" stroke-width="3"/>
+    <path d="M111 66 L122 40" stroke-width="3"/>
+
+    <path d="M77 66 L58 46" stroke-width="3"/>
+    <path d="M143 66 L162 46" stroke-width="3"/>
+    <path d="M70 58 L47 45" stroke-width="2.6"/>
+    <path d="M150 58 L173 45" stroke-width="2.6"/>
+
+    <path d="M65 56 L43 31" stroke-width="2.4"/>
+    <path d="M155 56 L177 31" stroke-width="2.4"/>
+    <path d="M50 46 L31 34" stroke-width="2.1"/>
+    <path d="M170 46 L189 34" stroke-width="2.1"/>
+
+    <path d="M110 107 L71 100" stroke-width="4"/>
+    <path d="M110 107 L149 100" stroke-width="4"/>
+    <path d="M78 102 L47 96" stroke-width="3"/>
+    <path d="M142 102 L173 96" stroke-width="3"/>
+    <path d="M49 96 L26 92" stroke-width="2.2"/>
+    <path d="M171 96 L194 92" stroke-width="2.2"/>
+
+    <path d="M110 117 L81 121" stroke-width="3.2"/>
+    <path d="M110 117 L139 121" stroke-width="3.2"/>
+    <path d="M84 122 L58 129" stroke-width="2.4"/>
+    <path d="M136 122 L162 129" stroke-width="2.4"/>
+    <path d="M60 129 L37 139" stroke-width="1.9"/>
+    <path d="M160 129 L183 139" stroke-width="1.9"/>
+  </g>
+  <ellipse cx="110" cy="201" rx="29" ry="3" fill="#1f3854" opacity="0.95"/>
+</svg>
