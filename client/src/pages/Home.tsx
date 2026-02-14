@@ -7,6 +7,7 @@ import ImageLightbox, { type LightboxImage } from '@/components/ImageLightbox';
 import {
   parkTerraceHistoryImages,
   parkTerraceHistoryMilestones,
+  parkTerraceHistorySource,
   parkTerraceImages,
   parkTerraceImageSource,
 } from '@/data/parkTerraceImages';
@@ -16,6 +17,8 @@ export default function Home() {
   const heroSecondaryImages = [parkTerraceImages[1], parkTerraceImages[7]];
   const archiveImages = parkTerraceImages.slice(8, 12);
   const historyImages = parkTerraceHistoryImages;
+  const featuredSeamanImages = historyImages.slice(0, 2);
+  const historyArchiveImages = historyImages.slice(2);
   const historyMilestones = parkTerraceHistoryMilestones;
   const ctaImage = parkTerraceImages[16];
   const heroBackdropImage =
@@ -332,8 +335,8 @@ export default function Home() {
               ))}
             </div>
 
-            <div className="xl:col-span-2 grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-1 gap-4">
-              {historyImages.map((image) => (
+            <div className="xl:col-span-2 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-1 gap-4">
+              {featuredSeamanImages.map((image) => (
                 <button
                   key={image.id}
                   type="button"
@@ -358,6 +361,33 @@ export default function Home() {
             </div>
           </div>
 
+          {historyArchiveImages.length > 0 && (
+            <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+              {historyArchiveImages.map((image) => (
+                <button
+                  key={image.id}
+                  type="button"
+                  onClick={() => openLightbox(image.imageUrl)}
+                  className="group relative overflow-hidden rounded-2xl border border-border bg-card text-left shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/60"
+                >
+                  <img
+                    src={image.imageUrl}
+                    alt={image.alt}
+                    className="h-44 md:h-48 w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                    loading="lazy"
+                  />
+                  <span className="absolute right-2 top-2 rounded-full border border-white/30 bg-black/35 px-2.5 py-1 text-[0.58rem] font-semibold uppercase tracking-[0.15em] text-white opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">
+                    View Large
+                  </span>
+                  <div className="p-3">
+                    <p className="text-sm font-semibold text-foreground">{image.title}</p>
+                    <p className="text-xs text-muted-foreground">{image.caption}</p>
+                  </div>
+                </button>
+              ))}
+            </div>
+          )}
+
           <p className="text-sm text-muted-foreground mt-6">
             Historical material adapted from{' '}
             <a
@@ -367,6 +397,15 @@ export default function Home() {
               className="font-medium no-underline border-b border-accent/40 hover:border-accent"
             >
               {parkTerraceImageSource.name}
+            </a>
+            , including Seaman Mansion archive photos from{' '}
+            <a
+              href={parkTerraceHistorySource.articleUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium no-underline border-b border-accent/40 hover:border-accent"
+            >
+              {parkTerraceHistorySource.name}
             </a>
             .
           </p>

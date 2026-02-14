@@ -32,6 +32,11 @@ export const parkTerraceImageSource = {
   articleUrl: 'https://myinwood.net/park-terrace-gardens/',
 };
 
+export const parkTerraceHistorySource = {
+  name: 'My Inwood',
+  articleUrl: 'https://myinwood.net/the-old-seaman-mansion/',
+};
+
 export const parkTerraceImages: ParkTerraceImage[] = [
   {
     id: 'dsc-hero',
@@ -220,6 +225,20 @@ export const parkTerraceHistoryMilestones: ParkTerraceHistoryMilestone[] = [
 ];
 
 export const parkTerraceHistoryImages: ParkTerraceHistoryImage[] = [
+  {
+    id: 'seaman-mansion-turn-century',
+    title: 'Seaman Mansion (Turn of the Century)',
+    caption: 'Historic view of the old Seaman Mansion near the turn of the century.',
+    imageUrl: '/images/park-terrace/Seaman-Mansion-turn-of-century.jpg',
+    alt: 'Historic photo of Seaman Mansion near the turn of the century',
+  },
+  {
+    id: 'seaman-mansion-aerial-1937',
+    title: 'Bird\'s-Eye View (1937)',
+    caption: 'Aerial view of the Seaman Mansion site and surrounding area in 1937.',
+    imageUrl: '/images/park-terrace/Seaman-Mansion-aerial-1937.jpg',
+    alt: 'Aerial view of Seaman Mansion and nearby buildings in 1937',
+  },
   {
     id: 'ptg-map-1911',
     title: '1911 Area Map',
