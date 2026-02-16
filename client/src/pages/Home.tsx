@@ -52,6 +52,24 @@ export default function Home() {
     },
   ];
 
+  const neighborhoodHighlights = [
+    {
+      title: 'Nature-Forward Living',
+      description:
+        'Minutes from Inwood Hill Park and Fort Tryon Park, with riverside and woodland paths close to home.',
+    },
+    {
+      title: 'Connected Transit',
+      description:
+        'Direct access to the A and 1 trains, plus nearby Metro-North connections for regional travel.',
+    },
+    {
+      title: 'Local Character',
+      description:
+        'A neighborhood mix of long-standing restaurants, cafes, and small businesses gives Inwood a strong community identity.',
+    },
+  ];
+
   const lightboxImages: LightboxImage[] = [
     {
       src: heroBackdropImage,
@@ -409,6 +427,62 @@ export default function Home() {
             </a>
             .
           </p>
+        </div>
+      </section>
+
+      {/* Neighborhood Section */}
+      <section className="py-20 md:py-24 border-y border-border bg-background">
+        <div className="container">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 md:gap-8">
+            <div className="lg:col-span-7 rounded-3xl border border-accent/20 bg-gradient-to-br from-accent/10 via-card/95 to-card p-7 md:p-9">
+              <p className="text-sm uppercase tracking-[0.2em] text-accent font-semibold mb-2">
+                Neighborhood
+              </p>
+              <h2 className="text-foreground mb-4">Living In Inwood</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Inwood offers a distinctive Manhattan lifestyle: dramatic parks,
+                historic architecture, and a strong local identity within a
+                highly walkable neighborhood. Park Terrace Gardens sits at the
+                center of that balance, combining quiet residential grounds with
+                direct city access.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Residents enjoy tree-lined streets, local dining corridors, and
+                nearby cultural landmarks, making PTG both a home and a gateway
+                to the best of northern Manhattan.
+              </p>
+            </div>
+
+            <div className="lg:col-span-5 rounded-3xl border border-border bg-card p-7 md:p-9">
+              <h3 className="text-foreground mb-4">Nearby Highlights</h3>
+              <ul className="space-y-3 text-muted-foreground">
+                <li>Inwood Hill Park and Fort Tryon Park</li>
+                <li>Harlem River and Hudson River greenway access</li>
+                <li>Broadway and Dyckman Street dining corridors</li>
+                <li>A and 1 train service with nearby Metro-North access</li>
+              </ul>
+              <Link href="/property">
+                <a className="inline-flex items-center mt-6 text-accent no-underline border-b border-accent/40 hover:border-accent">
+                  See Full Location Details
+                  <ArrowRight size={14} className="ml-2" />
+                </a>
+              </Link>
+            </div>
+          </div>
+
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {neighborhoodHighlights.map((highlight) => (
+              <Card
+                key={highlight.title}
+                className="p-6 border-accent/15 bg-card/90 hover:-translate-y-1 hover:shadow-xl transition-all"
+              >
+                <h3 className="font-serif font-bold text-lg mb-2 text-foreground">
+                  {highlight.title}
+                </h3>
+                <p className="text-sm text-muted-foreground">{highlight.description}</p>
+              </Card>
+            ))}
+          </div>
         </div>
       </section>
 

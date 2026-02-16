@@ -233,18 +233,18 @@ export const parkTerraceHistoryImages: ParkTerraceHistoryImage[] = [
     alt: 'Historic photo of Seaman Mansion near the turn of the century',
   },
   {
-    id: 'seaman-mansion-aerial-1937',
-    title: 'Bird\'s-Eye View (1937)',
-    caption: 'Aerial view of the Seaman Mansion site and surrounding area in 1937.',
-    imageUrl: '/images/park-terrace/Seaman-Mansion-aerial-1937.jpg',
-    alt: 'Aerial view of Seaman Mansion and nearby buildings in 1937',
-  },
-  {
     id: 'ptg-map-1911',
     title: '1911 Area Map',
     caption: 'Map view of the neighborhood before the cooperative era.',
     imageUrl: '/images/park-terrace/ptg-1911-map-resized.jpg',
     alt: '1911 map view of the Park Terrace Gardens area in Inwood',
+  },
+  {
+    id: 'seaman-mansion-aerial-1937',
+    title: 'Bird\'s-Eye View (1937)',
+    caption: 'Aerial view of the Seaman Mansion site and surrounding area in 1937.',
+    imageUrl: '/images/park-terrace/Seaman-Mansion-aerial-1937.jpg',
+    alt: 'Aerial view of Seaman Mansion and nearby buildings in 1937',
   },
   {
     id: 'ptg-1939',
